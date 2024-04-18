@@ -1,4 +1,4 @@
 package mcfroilan;
 
-public interface NoiseMaker {
+public interface NoiseMaker{
 }

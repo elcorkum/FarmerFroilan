@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Tomato {
+public class Tomato extends Edible {
 }

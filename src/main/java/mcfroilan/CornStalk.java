@@ -1,6 +1,4 @@
 package mcfroilan;
 
-public class CornStalk{
-
-
+public class CornStalk extends Crop{
 }

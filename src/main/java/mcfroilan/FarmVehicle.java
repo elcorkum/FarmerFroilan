@@ -1,4 +1,4 @@
 package mcfroilan;
 
-public interface FarmVehicle {
+public interface FarmVehicle{
 }

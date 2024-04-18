@@ -1,4 +1,4 @@
 package mcfroilan;
 
-public class Field {
+public class Field{
 }

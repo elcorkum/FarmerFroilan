@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Farm{
+public class Stable{
 }

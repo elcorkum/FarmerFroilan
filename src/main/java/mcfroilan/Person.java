@@ -1,5 +1,4 @@
 package mcfroilan;
 
-
-public class Person {
+public abstract class Person implements Eater, NoiseMaker, Rider{
 }
