@@ -1,4 +1,4 @@
 package mcfroilan;
 
-public class Tractor {
+public class Tractor implements FarmVehicle{
 }

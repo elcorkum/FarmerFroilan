@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Horse {
+public class Horse implements Rideable {
 }

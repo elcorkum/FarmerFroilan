@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Farmer {
+public class Farmer implements Botanist{
 }
