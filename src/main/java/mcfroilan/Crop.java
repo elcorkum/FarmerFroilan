@@ -1,6 +1,6 @@
 package mcfroilan;
 
-public class Crop{
+public abstract  class Crop{
 
 
 }

@@ -1,6 +1,6 @@
 package mcfroilan;
 
-public class Animal{
+public abstract class Animal{
 
 
 }

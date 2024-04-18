@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Vehicle {
+public abstract class Vehicle {
 }

@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class Pilot {
+public class Pilot extends Person {
 }
