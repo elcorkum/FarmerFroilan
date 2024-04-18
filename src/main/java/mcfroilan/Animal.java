@@ -1,6 +1,6 @@
 package mcfroilan;
 
-public class Animal{
+public class Animal implements NoiseMaker,Eater{
 
 
 }

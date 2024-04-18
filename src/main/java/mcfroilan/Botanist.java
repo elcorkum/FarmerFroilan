@@ -1,7 +1,7 @@
 package mcfroilan;
 
 
-public class Botanist{
+public interface Botanist{
 
 
 }
