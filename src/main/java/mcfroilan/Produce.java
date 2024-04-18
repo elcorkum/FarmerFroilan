@@ -1,5 +1,3 @@
 package mcfroilan;
-
-
-public interface Produce {
+public interface Produce{
 }

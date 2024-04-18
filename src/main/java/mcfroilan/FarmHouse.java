@@ -1,5 +1,5 @@
 package mcfroilan;
 
 
-public class FarmHouse {
+public class FarmHouse{
 }

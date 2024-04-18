@@ -1,5 +1,4 @@
 package mcfroilan;
 
-
-public class Vehicle implements Rideable,NoiseMaker{
+public abstract class Vehicle implements Rideable, NoiseMaker{
 }
