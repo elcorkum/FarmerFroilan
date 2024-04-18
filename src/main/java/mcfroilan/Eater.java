@@ -1,7 +1,4 @@
 package mcfroilan;
 
-public interface Eater {
-
-
-
+public interface Eater{
 }

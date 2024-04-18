@@ -1,5 +1,3 @@
 package mcfroilan;
-
-
-public class Farmer implements Botanist{
+public class Farmer extends Person implements Botanist{
 }

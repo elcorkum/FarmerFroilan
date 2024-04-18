@@ -1,7 +1,5 @@
 package mcfroilan;
 
 
-public class EarCorn{
-
-
+public class EarCorn extends Edible{
 }

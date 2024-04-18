@@ -1,6 +1,4 @@
 package mcfroilan;
 
-public class Crop implements Produce{
-
-
+public abstract class Crop implements Produce{
 }

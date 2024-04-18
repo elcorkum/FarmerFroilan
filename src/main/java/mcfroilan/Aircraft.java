@@ -1,4 +1,4 @@
 package mcfroilan;
 
-public class Aircraft {
+public abstract class Aircraft extends Vehicle {
 }
