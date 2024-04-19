@@ -4,9 +4,16 @@ package mcfroilan;
 public class Chicken extends Animal implements Produce{
     //private EdibleEgg egg;
     private boolean hasBeenFertilized;
+    private int id;
 
-    public Chicken(boolean isFretilized){
-        setHasBeenFertilized(isFretilized);
+    public static int uniqueID = 0;
+    public Chicken(){
+        uniqueID++;
+        id = uniqueID;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public boolean isHasBeenFertilized() {
