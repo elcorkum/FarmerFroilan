@@ -21,7 +21,8 @@ public class Main{
             }
         }
 
-
+        CropDuster cropDuster = new CropDuster();
+        Tractor tractor = new Tractor();
 
 
     }

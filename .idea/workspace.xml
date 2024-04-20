@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="" />
+    <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Aircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,15 +41,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Juan&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/juan/Desktop/FarmerFroilan&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Isaiah",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/juan/Desktop/FarmerFroilan"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mcfroilan.Main" />
+      <module name="FarmerFroilan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mcfroilan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
