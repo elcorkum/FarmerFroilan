@@ -31,4 +31,20 @@ public class Farm{
                 "chickenCoops=" + Arrays.deepToString(chickenCoops) +
                 '}';
     }
+    public  Crop[][] createField(){
+        Crop[][] field = new Crop[5][10];
+        for (int i = 0; i< field.length; i++){
+            for (int y = 0; y < field[i].length; y++){
+                field[i][y]=new Crop() {
+                    @Override
+                    public Edible yield() {
+                        return null;
+                    }
+                };
+            }
+        }
+        return field;
+    }
+
+
 }
