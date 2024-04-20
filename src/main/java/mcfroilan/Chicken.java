@@ -2,7 +2,7 @@ package mcfroilan;
 
 
 public class Chicken extends Animal implements Produce{
-    //private EdibleEgg egg;
+    private EdibleEgg egg;
     private boolean hasBeenFertilized;
     private int id;
 
@@ -28,12 +28,13 @@ public class Chicken extends Animal implements Produce{
 
     public Edible yield(){
         Edible egg;
-        if(hasBeenFertilized){
+        if(!hasBeenFertilized){
             egg = new EdibleEgg();
             setHasBeenFertilized(true);
         } else{
             egg = null;
             setHasBeenFertilized(false);
+            System.out.println("There is no egg to collect at this time.");
         }
 
        return egg;
@@ -48,4 +49,5 @@ public class Chicken extends Animal implements Produce{
     public void makeNoise() {
         System.out.println("bok bok");
     }
+
 }

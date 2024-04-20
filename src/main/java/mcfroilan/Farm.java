@@ -21,10 +21,7 @@ public class Farm{
             }
         }
         return chickenCoops;
-
-
     }
-
 
     @Override
     public String toString() {
