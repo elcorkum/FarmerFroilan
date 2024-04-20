@@ -12,6 +12,7 @@ public class Farm{
     public Chicken[][] makeChickens(){
         chickenCoops = new Chicken[4][4];
         for (int x = 0; x < 4; x++){
+            chickenCoops[x] = new Chicken[4];
             for (int y = 0; y < 4; y++){
                 if (x == 3 && y > 2){
                     break;
