@@ -20,7 +20,8 @@ public class Main{
                 }
             }
         }
-
+        Farm horses = new Farm();
+        horses.makeHorses(10,3);
 
 
 

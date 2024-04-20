@@ -31,4 +31,24 @@ public class Farm{
                 "chickenCoops=" + Arrays.deepToString(chickenCoops) +
                 '}';
     }
+    public void makeHorses(int numHorses, int numStables){
+        int horses;
+        int stable;
+
+        Stable[] stables = new Stable[numStables];
+
+        int horsesPerStable = numHorses / numStables;
+
+        int remainingHorses = numHorses;
+        for (int i = 0; i < numStables; i++) {
+            int horsesForThisStable;
+            if (i == numStables - 1) {
+                horsesForThisStable = remainingHorses;
+            } else {
+                horsesForThisStable = horsesPerStable;
+            }
+            System.out.println("Stable " + (i + 1) + ": " + horsesForThisStable + " horses");
+            remainingHorses -= horsesForThisStable;
+        }
+    }
 }
