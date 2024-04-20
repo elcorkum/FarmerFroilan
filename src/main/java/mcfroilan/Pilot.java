@@ -13,7 +13,7 @@ public class Pilot extends Person {
     }
 
     @Override
-    public void dismount(Rideable rideable) {
+    public void dismount() {
         System.out.println("Getting off the rideable");
     }
 
