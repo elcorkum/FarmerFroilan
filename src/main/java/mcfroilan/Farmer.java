@@ -1,6 +1,7 @@
 package mcfroilan;
 public class Farmer extends Person implements Botanist{
     private boolean riding;
+    private Rideable mounted;
 
 
     @Override
@@ -37,10 +38,11 @@ public class Farmer extends Person implements Botanist{
 
     @Override
     public void mount(Rideable rideable) {
+
         if (rideable instanceof Aircraft){
-            System.out.println("You are not a pilot.");
+            System.out.println("Farmer is not a pilot.");
         }
-        if (this.riding == false)
+        else if (this.riding == false)
         {
             if (rideable instanceof Vehicle) {
                 System.out.println("farmer is riding a tractor.");
@@ -49,9 +51,11 @@ public class Farmer extends Person implements Botanist{
                 System.out.println("farmer is riding a horse.");
             }
             this.riding = true;
+            this.mounted = rideable;
         }
         else{
             System.out.println("Farmer is riding something already, dismount.");
+
         }
     }
 
@@ -61,12 +65,13 @@ public class Farmer extends Person implements Botanist{
             System.out.println("Farmer is not riding anything.");
         }
         if (this.riding == true) {
-            if (rideable instanceof Vehicle) {
+            if (this.mounted instanceof Vehicle) {
                 System.out.println("farmer dismounts a tractor.");
             }
-            if (rideable instanceof Animal) {
+            if (this.mounted instanceof Animal) {
                 System.out.println("farmer dismounts a horse.");
             }
+
         }
     }
 
