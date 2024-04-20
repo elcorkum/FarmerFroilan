@@ -32,6 +32,8 @@ public class Tractor extends Vehicle implements FarmVehicle{
         if(!getIsMounted()){
             makeNoise();
             System.out.println("Farmer is operating tractor on the farm");
+        } else{
+            System.out.println("Cannot be operated before mounting.");
         }
     }
 }
