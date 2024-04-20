@@ -26,6 +26,7 @@ public class Main{
         System.out.println(chicken1.getId());
         System.out.println(chicken2.getId());
         System.out.println(chicken3.getId());
+        farm.makeChickens();
         for(Chicken[] chickenCoop: chickenCoops) {
             for(Chicken chicken: chickenCoop){
                 if(chicken != null && chicken.getId() == 13){

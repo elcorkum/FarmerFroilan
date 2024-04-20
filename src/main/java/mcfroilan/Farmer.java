@@ -38,6 +38,7 @@ public class Farmer extends Person implements Botanist{
 
     @Override
     public void mount(Rideable rideable) {
+
         if (rideable instanceof Aircraft){
             System.out.println("Farmer is not a pilot.");
         }
@@ -54,6 +55,7 @@ public class Farmer extends Person implements Botanist{
         }
         else{
             System.out.println("Farmer is riding something already, dismount.");
+
         }
     }
 
@@ -69,6 +71,7 @@ public class Farmer extends Person implements Botanist{
             if (this.mounted instanceof Animal) {
                 System.out.println("farmer dismounts a horse.");
             }
+
         }
     }
 
