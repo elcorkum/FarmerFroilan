@@ -5,6 +5,7 @@ public abstract class Crop implements Produce{
     private boolean hasBeenFertilized;
     private static  int cropCounter = 0;
     private int Id;
+  
     public boolean isHasBeenHarvested() {
         return hasBeenHarvested;
     }
@@ -33,7 +34,4 @@ public abstract class Crop implements Produce{
 
     }
 
-
-
-
-
+}

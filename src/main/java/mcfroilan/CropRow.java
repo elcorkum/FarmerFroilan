@@ -1,6 +1,10 @@
 package mcfroilan;
+
+import java.util.Arrays;
+
 public class CropRow{
     private Crop[] crops;
+
     private static int cropRowCount=0;
     private int id;
     public CropRow (int size){
@@ -14,5 +18,9 @@ public class CropRow{
 
     public Crop[] getCrops() {
         return crops;
+    }
+      
+    public void setCrops(Crop[] crops) {
+        this.crops = crops;
     }
 }
