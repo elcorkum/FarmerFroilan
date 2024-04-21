@@ -24,7 +24,7 @@ public class Farmer extends Person implements Botanist{
                 cropRow.getCrops()[index] = new CornStalk();
             }
         }
-        }
+    }
 
     @Override
     public void eat(Edible edible) {
@@ -60,7 +60,7 @@ public class Farmer extends Person implements Botanist{
     }
 
     @Override
-    public void dismount() {
+    public void dismount(Rideable rideable) {
         if (this.riding == false) {
             System.out.println("Farmer is not riding anything.");
         }
@@ -74,5 +74,4 @@ public class Farmer extends Person implements Botanist{
 
         }
     }
-
 }
