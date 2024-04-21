@@ -3,6 +3,13 @@ public class Farmer extends Person implements Botanist{
     private boolean riding;
     private Rideable mounted;
 
+    public boolean isRiding() {
+        return riding;
+    }
+
+    public void setRiding(boolean riding) {
+        this.riding = riding;
+    }
 
     @Override
     public void plant(Crop crop, CropRow cropRow, int index) {
@@ -24,7 +31,7 @@ public class Farmer extends Person implements Botanist{
                 cropRow.getCrops()[index] = new CornStalk();
             }
         }
-        }
+    }
 
     @Override
     public void eat(Edible edible) {
@@ -42,15 +49,17 @@ public class Farmer extends Person implements Botanist{
         if (rideable instanceof Aircraft){
             System.out.println("Farmer is not a pilot.");
         }
-        else if (this.riding == false)
+        else if (this.isRiding() == false)
         {
-            if (rideable instanceof Vehicle) {
+            if (rideable instanceof Tractor) {
+                ((Tractor) rideable).operate();
                 System.out.println("farmer is riding a tractor.");
             }
-            if (rideable instanceof Animal) {
+            if (rideable instanceof Horse) {
+                ((Horse) rideable).ride();
                 System.out.println("farmer is riding a horse.");
             }
-            this.riding = true;
+            setRiding(true);
             this.mounted = rideable;
         }
         else{
@@ -64,15 +73,15 @@ public class Farmer extends Person implements Botanist{
         if (this.riding == false) {
             System.out.println("Farmer is not riding anything.");
         }
-        if (this.riding == true) {
-            if (this.mounted instanceof Vehicle) {
+        else if (this.riding == true) {
+            if (this.riding == false) {
                 System.out.println("farmer dismounts a tractor.");
             }
             if (this.mounted instanceof Animal) {
                 System.out.println("farmer dismounts a horse.");
             }
-
         }
+        this.riding = false;
+        this.mounted = null;
     }
-
 }

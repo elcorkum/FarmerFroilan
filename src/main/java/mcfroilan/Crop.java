@@ -11,7 +11,7 @@ public abstract class Crop implements Produce{
         return hasBeenHarvested;
     }
 
-    public  void setHasBeenHarvested(boolean hasBeenHarvested) {
+    public void setHasBeenHarvested(boolean hasBeenHarvested) {
         hasBeenHarvested = hasBeenHarvested;
     }
 
@@ -22,7 +22,6 @@ public abstract class Crop implements Produce{
     public void setHasBeenFertilized(boolean hasBeenFertilized) {
         this.hasBeenFertilized = hasBeenFertilized;
     }
-
 
     public Crop (){
         this.Id= cropCounter++;
@@ -37,5 +36,6 @@ public String toString(){
 }
 
     }
+
 
 

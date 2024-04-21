@@ -1,13 +1,10 @@
 package mcfroilan;
-
-
 public class EdibleEgg extends Edible{
-    private int id = 0;
-    public static int uniqueID;
+    private int id;
+    public static int uniqueID = 0;
 
-    public EdibleEgg(){
+    public EdibleEgg() {
         uniqueID++;
         id = uniqueID;
     }
-
 }
