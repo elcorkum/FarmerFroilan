@@ -38,9 +38,17 @@ public class Chicken extends Animal implements Produce{
     }
 
     @Override
-    public void eat(Edible edible) {
-        System.out.println("This chicken is eating " + edible);
-        setHasBeenFed(true);
+    public void eat(Edible[] edibles) {
+        if (isHasBeenFed() == false) {
+            for (int i = 0; i < edibles.length; i++){
+                edibles[i] = null;
+            }
+            setHasBeenFed(true);
+        } else{
+            System.out.println("This chicken just ate!");
+            setHasBeenFed(false);
+        }
+
     }
 
     @Override

@@ -33,9 +33,16 @@ public class Horse extends Animal implements Rideable{
     }
 
     @Override
-    public void eat(Edible edible) {
-        System.out.println("Horse is eating " + edible);
-        setHasBeenFed(true);
+    public void eat(Edible[] edibles) {
+        if (isHasBeenFed() == false) {
+            for (int i = 0; i < edibles.length; i++){
+                edibles[i] = null;
+            }
+            setHasBeenFed(true);
+        } else{
+            System.out.println("This chicken just ate!");
+            setHasBeenFed(false);
+        }
     }
     @Override
     public void makeNoise() {
