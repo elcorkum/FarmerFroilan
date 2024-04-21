@@ -1,6 +1,5 @@
 package mcfroilan;
 
-
 public class TomatoPlant extends Crop {
     public Tomato yield(){
         Tomato tomato;
@@ -11,4 +10,4 @@ public class TomatoPlant extends Crop {
         }
         return tomato;
     }
-    }
+}

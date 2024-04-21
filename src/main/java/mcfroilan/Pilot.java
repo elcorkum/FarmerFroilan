@@ -44,10 +44,12 @@ public class Pilot extends Person {
                 System.out.println("Pilot dismounts a horse.");
             }
         }
+
+
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("Time to fly!");
+        System.out.println("Time to fly!!");
     }
 }
