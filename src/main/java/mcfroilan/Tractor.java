@@ -1,5 +1,6 @@
 package mcfroilan;
 
+
 public class Tractor extends Vehicle implements FarmVehicle{
     private boolean inOperation;
     private static boolean created = false;
@@ -31,7 +32,7 @@ public class Tractor extends Vehicle implements FarmVehicle{
         Crop[][] cropsHarvested = new Crop[2][10];
         for (int i = 0; i < field.length; i++) {
             for(int j = 0; j < 2; j++){
-                if (field[i][j].isHasBeenFertilized() == true){
+                if (field[i][j].hasBeenFertilized == true){
                     if(field[i][j] instanceof TomatoPlant){
                         cropsHarvested[i][j] = new TomatoPlant();
                     } else if (field[i][j] instanceof CornStalk) {
@@ -53,4 +54,4 @@ public class Tractor extends Vehicle implements FarmVehicle{
         makeNoise();
         setInOperation(true);
     }
-}
+    }
