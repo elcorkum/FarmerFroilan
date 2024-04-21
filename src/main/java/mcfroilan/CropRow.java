@@ -10,6 +10,7 @@ public class CropRow{
         this.id=cropRowCount++;
         this.crops =new Crop[size];
     }
+    public CropRow(){}
 
     public int getId() {
         return id;

@@ -12,7 +12,7 @@ public abstract class Crop implements Produce{
     }
 
     public void setHasBeenHarvested(boolean hasBeenHarvested) {
-        hasBeenHarvested = hasBeenHarvested;
+        this.hasBeenHarvested = hasBeenHarvested;
     }
 
     public boolean getHasBeenFertilized() {
@@ -31,7 +31,7 @@ public abstract class Crop implements Produce{
         return Id;
     }
 
-public String toString(){
+    public String toString(){
         return "Crop ID: " + Id;
 }
 

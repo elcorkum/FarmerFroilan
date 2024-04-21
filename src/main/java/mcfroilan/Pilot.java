@@ -5,10 +5,35 @@ public class Pilot extends Person {
 
     private boolean riding;
     private Rideable mounted;
+    private boolean hasEaten;
+
+    public boolean getHasEaten() {
+        return hasEaten;
+    }
+
+    public void setHasEaten(boolean hasEaten) {
+        this.hasEaten = hasEaten;
+    }
 
     @Override
-    public void eat(Edible edible) {
-        System.out.println("Pilot is eating " + edible);
+    public void eat(Edible[] edibles) {
+        if (this.getHasEaten() == false){
+            for (int i = 0; i < edibles.length; i++){
+                if (edibles[i] instanceof EdibleEgg) {
+                    System.out.println("Sunny-side up for the win!");
+                }
+                if(edibles[i] instanceof EarCorn){
+                    System.out.println("I love corn");
+                }
+                if(edibles[i] instanceof Tomato){
+                    System.out.println("Yum...Love me some tomato!");
+                }
+                setHasEaten(true);
+            }
+        } else {
+            System.out.println("Pilot has already eaten");
+            setHasEaten(false);
+        }
     }
 
     @Override

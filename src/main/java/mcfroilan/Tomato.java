@@ -6,4 +6,11 @@ public class Tomato extends Edible {
         uniqueID++;
         id = uniqueID;
     }
+
+    @Override
+    public String toString() {
+        return "Tomato{"
+                 + id +
+                '}';
+    }
 }

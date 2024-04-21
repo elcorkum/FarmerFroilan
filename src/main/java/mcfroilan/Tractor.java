@@ -38,7 +38,7 @@ public class Tractor extends Vehicle implements FarmVehicle{
                     } else if (field[i][j] instanceof CornStalk) {
                         cropsHarvested[i][j] = new CornStalk();
                     }
-                    field[i][j].setHasBeenHarvested(true);
+                   field[i][j].setHasBeenHarvested(true);
                     field[i][j] = null;
                 } else {
                     field[i][j].setHasBeenHarvested(false);
@@ -48,7 +48,6 @@ public class Tractor extends Vehicle implements FarmVehicle{
         }
         return cropsHarvested;
     }
-
     @Override
     public void operate() {
         System.out.println("Farmer starting tractor engine...");
