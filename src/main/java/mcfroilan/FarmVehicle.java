@@ -2,5 +2,7 @@ package mcfroilan;
 
 public interface FarmVehicle{
 
-    public void operate();
+
+     void oneFarmVehicle();
+     void operate();
 }

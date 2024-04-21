@@ -1,5 +1,13 @@
 package mcfroilan;
 
 public abstract class Vehicle implements Rideable, NoiseMaker{
-    //no fields or methods at the moment
+    private boolean isMounted;
+
+    public boolean getIsMounted() {
+        return isMounted;
+    }
+
+    public void setIsMounted(boolean mounted) {
+        isMounted = mounted;
+    }
 }
