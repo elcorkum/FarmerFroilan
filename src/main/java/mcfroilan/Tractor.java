@@ -37,10 +37,10 @@ public class Tractor extends Vehicle implements FarmVehicle{
                     } else if (field[i][j] instanceof CornStalk) {
                         cropsHarvested[i][j] = new CornStalk();
                     }
-                   field[i][j].isHasBeenHarvested(true);
+                   field[i][j].setHasBeenFertilized(true);
                     field[i][j] = null;
                 } else {
-                    field[i][j].isHasBeenHarvested(false);
+                    field[i][j].setHasBeenFertilized(false);
                     field[i][j] = null;
                 }
             }
