@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/PilotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/EverydayMorningRoutine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" afterDir="false" />
+=======
 
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" afterDir="false" />
@@ -31,9 +28,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" afterDir="false" />
+>>>>>>> 08408c725503e09dbc4d6026ba8c8d39ea86c928
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mcfroilan/PilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/MondayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +62,7 @@
 
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -108,7 +105,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mcfroilan.Main" />
-      <module name="FarmerFroilan" />
+      <module name="Exam2Review" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mcfroilan.*" />

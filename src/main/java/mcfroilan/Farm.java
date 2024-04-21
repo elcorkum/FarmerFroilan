@@ -9,12 +9,12 @@ public class Farm{
     private FarmHouse farmHouse;
     private Crop[][] field;
 
-    public Farm(Horse[][] stables, Chicken[][] chickenCoops, FarmHouse farmHouse, Crop[][] field){
-        this.stables = stables;
-        this.chickenCoops = chickenCoops;
-        this.farmHouse = farmHouse;
-        this.field = field;
-    }
+//    public Farm(Horse[][] stables, Chicken[][] chickenCoops, FarmHouse farmHouse, Crop[][] field){
+//        this.stables = stables;
+//        this.chickenCoops = chickenCoops;
+//        this.farmHouse = farmHouse;
+//        this.field = field;
+//    }
 
     public Chicken[][] makeChickens() {
         chickenCoops = new Chicken[4][4];
