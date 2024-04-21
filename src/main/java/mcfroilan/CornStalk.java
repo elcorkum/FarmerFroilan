@@ -15,13 +15,16 @@ public class CornStalk extends Crop{
         id = uniqueID;
     }
 
-    public EarCorn yield (){
-        EarCorn earCorn;
-        if (!this.isHasBeenFertilized() && !this.isHasBeenHarvested()){
-            earCorn = new EarCorn();
-        }else {
-            earCorn = null;
+
+        public EarCorn yield (){
+            EarCorn earCorn;
+            if (hasBeenFertilized && hasBeenHarvested){
+                earCorn = new EarCorn();
+            }else {
+                earCorn = null;
+            }
+            return earCorn;
         }
-        return null;
     }
-}
+
+

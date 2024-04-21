@@ -6,14 +6,6 @@ public class Chicken extends Animal implements Produce{
     public static int uniqueID = 0;
     private boolean hasBeenFed;
 
-    public boolean getHasBeenFertilized() {
-        return hasBeenFertilized;
-    }
-
-    public void setHasBeenFertilized(boolean hasBeenFertilized) {
-        this.hasBeenFertilized = hasBeenFertilized;
-    }
-
     public boolean isHasBeenFed() {
         return hasBeenFed;
     }
@@ -31,18 +23,18 @@ public class Chicken extends Animal implements Produce{
         return id;
     }
 
-    public Edible yield(){
-        Edible egg;
-        if(!hasBeenFertilized){
-            egg = new EdibleEgg();
-            setHasBeenFertilized(true);
-        } else{
-            egg = null;
-            setHasBeenFertilized(false);
-            System.out.println("There is no egg to collect at this time.");
-        }
+    public boolean isHasBeenFertilized() {
+        return hasBeenFertilized;
+    }
 
-       return egg;
+    public void setHasBeenFertilized(boolean hasBeenFertilized) {
+        this.hasBeenFertilized = hasBeenFertilized;
+    }
+    public Edible yield(){
+        if(isHasBeenFertilized() == true){
+            return new EdibleEgg();
+        }
+        return null;
     }
 
     @Override
@@ -55,5 +47,4 @@ public class Chicken extends Animal implements Produce{
     public void makeNoise() {
         System.out.println("bok bok");
     }
-
 }

@@ -31,7 +31,7 @@ public class Farmer extends Person implements Botanist{
                 cropRow.getCrops()[index] = new CornStalk();
             }
         }
-        }
+    }
 
     @Override
     public void eat(Edible edible) {
@@ -70,18 +70,5 @@ public class Farmer extends Person implements Botanist{
 
     @Override
     public void dismount() {
-        if (this.isRiding() == false) {
-            System.out.println("Farmer is not riding anything.");
-        }
-        if (this.isRiding() == true) {
-            if (this.mounted instanceof Vehicle) {
-                System.out.println("farmer dismounts a tractor.");
-            }
-            if (this.mounted instanceof Horse) {
-                System.out.println("farmer dismounts a horse.");
-            }
-
-        }
     }
-
 }

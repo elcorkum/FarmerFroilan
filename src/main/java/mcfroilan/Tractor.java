@@ -1,8 +1,8 @@
 package mcfroilan;
 
 public class Tractor extends Vehicle implements FarmVehicle{
-
     private boolean inOperation;
+    private static boolean created = false;
 
     public boolean isInOperation() {
         return inOperation;
@@ -12,6 +12,17 @@ public class Tractor extends Vehicle implements FarmVehicle{
         this.inOperation = inOperation;
     }
 
+    public Tractor(){
+        oneFarmVehicle();
+    }
+
+    @Override
+    public void oneFarmVehicle() {
+        if(created) {
+            throw new IllegalStateException("One has been created");
+        }
+        created = true;
+    }
     public void makeNoise(){
         System.out.println("Vroom Vroom!");
     }
@@ -23,13 +34,15 @@ public class Tractor extends Vehicle implements FarmVehicle{
                 if (field[i][j].isHasBeenFertilized() == true){
                     if(field[i][j] instanceof TomatoPlant){
                         cropsHarvested[i][j] = new TomatoPlant();
-                    } else if (field[i][j] instanceof CornStalk){
+                    } else if (field[i][j] instanceof CornStalk) {
                         cropsHarvested[i][j] = new CornStalk();
                     }
-                   field[i][j].setHasBeenHarvested(true);
+                   field[i][j].isHasBeenHarvested(true);
                     field[i][j] = null;
                 } else {
-                    field[i][j].setHasBeenHarvested(false);}
+                    field[i][j].isHasBeenHarvested(false);
+                    field[i][j] = null;
+                }
             }
         }
         return cropsHarvested;

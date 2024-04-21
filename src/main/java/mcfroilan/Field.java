@@ -1,6 +1,6 @@
 package mcfroilan;
 
-public class Field{
+public class Field {
     private CropRow[] cropRows;
 
     public CropRow[] getCropRows() {

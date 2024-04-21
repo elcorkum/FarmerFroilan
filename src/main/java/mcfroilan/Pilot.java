@@ -2,6 +2,10 @@ package mcfroilan;
 
 
 public class Pilot extends Person {
+
+    private boolean riding;
+    private Rideable mounted;
+
     @Override
     public void eat(Edible edible) {
         System.out.println("Pilot is eating " + edible);
@@ -9,16 +13,30 @@ public class Pilot extends Person {
 
     @Override
     public void mount(Rideable rideable) {
-        System.out.println("Getting on the rideable");
+        if (rideable instanceof Tractor) {
+            System.out.println("Pilot is not a farmer.");
+        } else if (this.riding == false) {
+            if (rideable instanceof Vehicle) {
+                System.out.println("Pilot is flying a crop duster.");
+            }
+            if (rideable instanceof Animal) {
+                System.out.println("Pilot is riding a horse.");
+            }
+            this.riding = true;
+            this.mounted = rideable;
+        } else {
+            System.out.println("Pilot is riding or flying already, please dismount them.");
+
+        }
     }
+
 
     @Override
     public void dismount() {
-        System.out.println("Getting off the rideable");
     }
 
     @Override
-    public void makeNoise(){
-
+    public void makeNoise() {
+        System.out.println("Time to fly!!");
     }
 }
