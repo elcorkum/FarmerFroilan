@@ -25,13 +25,12 @@ public class CropDuster extends Aircraft implements FarmVehicle{
 //        } else{
 //            System.out.println("Cannot be operated without mounting");
 //        }
-
-
     }
-    public void fertilize(CropRow[] cropRows){
-        for(CropRow cropRow: cropRows){
+
+    public void fertilize(Crop[][] cropRows){
+        for(Crop[] cropRow: cropRows){
             for(Crop crop: cropRow){
-                crop.isHasBeenFertilized(true);
+                crop.setHasBeenFertilized(true);
                 System.out.println("Current crop is being fertilized");
 
             }
