@@ -3,6 +3,13 @@ public class Farmer extends Person implements Botanist{
     private boolean riding;
     private Rideable mounted;
 
+    public boolean isRiding() {
+        return riding;
+    }
+
+    public void setRiding(boolean riding) {
+        this.riding = riding;
+    }
 
     @Override
     public void plant(Crop crop, CropRow cropRow, int index) {
@@ -42,15 +49,17 @@ public class Farmer extends Person implements Botanist{
         if (rideable instanceof Aircraft){
             System.out.println("Farmer is not a pilot.");
         }
-        else if (this.riding == false)
+        else if (this.isRiding() == false)
         {
-            if (rideable instanceof Vehicle) {
+            if (rideable instanceof Tractor) {
+                ((Tractor) rideable).operate();
                 System.out.println("farmer is riding a tractor.");
             }
-            if (rideable instanceof Animal) {
+            if (rideable instanceof Horse) {
+                ((Horse) rideable).ride();
                 System.out.println("farmer is riding a horse.");
             }
-            this.riding = true;
+            setRiding(true);
             this.mounted = rideable;
         }
         else{
