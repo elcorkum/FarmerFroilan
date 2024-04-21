@@ -11,7 +11,8 @@ public class TomatoPlant extends Crop {
     }
     public Tomato yield(){
         Tomato tomato;
-        if (!this.isHasBeenFertilized() && !this.isHasBeenHarvested()){
+      
+        if (hasBeenFertilized && hasBeenHarvested){
             tomato = new Tomato();
         } else{
             tomato = null;
