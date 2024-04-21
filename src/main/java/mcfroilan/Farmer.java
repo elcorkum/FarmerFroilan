@@ -21,6 +21,9 @@ public class Farmer extends Person implements Botanist{
                 if (crop instanceof CornStalk){
                     cropRow.getCrops()[i] = new CornStalk();
                 }
+                if (crop instanceof BeanStalk){
+                    cropRow.getCrops()[i] = new BeanStalk();
+                }
             }
         }
         else {
@@ -29,6 +32,9 @@ public class Farmer extends Person implements Botanist{
             }
             if (crop instanceof CornStalk){
                 cropRow.getCrops()[index] = new CornStalk();
+            }
+            if (crop instanceof BeanStalk){
+                cropRow.getCrops()[index] = new BeanStalk();
             }
         }
     }
@@ -74,7 +80,7 @@ public class Farmer extends Person implements Botanist{
             System.out.println("Farmer is not riding anything.");
         }
         else if (this.riding == true) {
-            if (this.riding == false) {
+            if (this.mounted instanceof Vehicle) {
                 System.out.println("farmer dismounts a tractor.");
             }
             if (this.mounted instanceof Animal) {
