@@ -18,26 +18,24 @@ public class CropDuster extends Aircraft implements FarmVehicle{
 
     @Override
     public void operate() {
-
-            if(!getIsMounted()) {
-                makeNoise();
-                fly();
-                System.out.println("Preparing to fertilize the crops");
-            } else{
-                System.out.println("Cannot be operated without mounting");
-            }
-
-        if(!getIsMounted()) {
-            makeNoise();
-            fly();
-            System.out.println("Preparing to fertilize the crops");
-        } else{
-            System.out.println("Cannot be operated without mounting");
-        }
+//        if(!getIsMounted()) {
+//            makeNoise();
+//            fly();
+//            System.out.println("Preparing to fertilize the crops");
+//        } else{
+//            System.out.println("Cannot be operated without mounting");
+//        }
 
 
     }
     public void fertilize(CropRow[] cropRows){
+        for(CropRow cropRow: cropRows){
+            for(Crop crop: cropRow){
+                crop.isHasBeenFertilized(true);
+                System.out.println("Current crop is being fertilized");
+
+            }
+        }
     }
     @Override
     public void makeNoise(){
