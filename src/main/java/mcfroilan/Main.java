@@ -15,7 +15,6 @@ public class Main{
         Horse horse = new Horse();
         CropDuster cropDuster = new CropDuster();
         tim.mount(tractor);
-        tim.dismount(horse);
         //tim.mount(tractor);
         //tim.mount(horse);
 
@@ -34,7 +33,6 @@ public class Main{
                 }
             }
         }
-
 
 
 
