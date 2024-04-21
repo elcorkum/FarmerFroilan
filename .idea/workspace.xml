@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/PilotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
@@ -21,13 +29,11 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/EdibleEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/EdibleEgg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/FarmVehicle.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Tomato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Rider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,6 +62,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "Isaiah",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/chell/FarmerFroilan/src/main"
+
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -66,8 +87,24 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chell\FarmerFroilan\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chell\FarmerFroilan\src\main" />
+      <recent name="C:\Users\chell\FarmerFroilan" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mcfroilan" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mcfroilan.Main" />
@@ -88,6 +125,8 @@
       </list>
     </recent_temporary>
   </component>
+
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
@@ -97,6 +136,7 @@
     "last_opened_file_path": "/Users/juan/Desktop/FarmerFroilan"
   }
 }]]></component>
+
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
