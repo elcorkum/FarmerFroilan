@@ -18,7 +18,7 @@ public class Pilot extends Person {
     }
 
     @Override
-    public void makeNoise() {
+    public void makeNoise(){
 
     }
 }

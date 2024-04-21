@@ -4,11 +4,18 @@ package mcfroilan;
 import java.util.Arrays;
 
 public class Farm{
-    private Stable[] stables;
+    private Horse[][] stables;
     private Chicken[][] chickenCoops;
     private FarmHouse farmHouse;
+    private Crop[][] field;
 
 
+    public Farm(Horse[][] stables, Chicken[][] chickenCoops, FarmHouse farmHouse, Crop[][] field){
+        this.stables = stables;
+        this.chickenCoops = chickenCoops;
+        this.farmHouse = farmHouse;
+        this.field = field;
+    }
     public Chicken[][] makeChickens(){
         chickenCoops = new Chicken[4][4];
         for (int x = 0; x < 4; x++){
@@ -43,6 +50,9 @@ public class Farm{
         }
         return field;
     }
+
+
+
 
 
 }

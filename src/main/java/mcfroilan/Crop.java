@@ -5,6 +5,11 @@ public abstract class Crop implements Produce{
     private boolean hasBeenFertilized;
     private static  int cropCounter = 0;
     private int Id;
+
+
+    public int getId() {
+        return Id;
+    }
   
     public boolean isHasBeenHarvested() {
         return hasBeenHarvested;
@@ -27,11 +32,5 @@ public abstract class Crop implements Produce{
         this.Id= cropCounter++;
     }
 
-    public int getId() {
-        return Id;
-    }
-
-
-    }
 
 }
