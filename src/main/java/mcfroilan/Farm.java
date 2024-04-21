@@ -4,6 +4,7 @@ package mcfroilan;
 import java.util.Arrays;
 
 public class Farm {
+
     private Stable[][] stables;
     private Chicken[][] chickenCoops;
     private FarmHouse farmHouse;
@@ -24,13 +25,13 @@ public class Farm {
 
     }
 
-
     @Override
     public String toString() {
         return "Farm{" +
                 "chickenCoops=" + Arrays.deepToString(chickenCoops) +
                 '}';
     }
+
 
     public Horse[][] makeHorses() {
         Horse[][] stables = new Horse[3][4];
@@ -43,5 +44,19 @@ public class Farm {
             }
         }
         return stables;
+
+    public Crop[][] createField() {
+        Crop[][] field = new Crop[5][10];
+        for (int i = 0; i < field.length; i++) {
+            for (int y = 0; y < field[i].length; y++) {
+                field[i][y] = new Crop() {
+                    @Override
+                    public Edible yield() {
+                        return null;
+                    }
+                };
+            }
+        }
+        return field;
     }
 }

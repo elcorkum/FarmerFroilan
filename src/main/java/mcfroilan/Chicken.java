@@ -2,11 +2,12 @@ package mcfroilan;
 
 
 public class Chicken extends Animal implements Produce{
-    //private EdibleEgg egg;
+    private EdibleEgg egg;
     private boolean hasBeenFertilized;
     private int id;
 
     public static int uniqueID = 0;
+
     public Chicken(){
         uniqueID++;
         id = uniqueID;
