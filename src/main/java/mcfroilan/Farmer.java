@@ -70,5 +70,18 @@ public class Farmer extends Person implements Botanist{
 
     @Override
     public void dismount() {
+        if (this.riding == false) {
+            System.out.println("Farmer is not riding anything.");
+        }
+        else if (this.riding == true) {
+            if (this.riding == false) {
+                System.out.println("farmer dismounts a tractor.");
+            }
+            if (this.mounted instanceof Animal) {
+                System.out.println("farmer dismounts a horse.");
+            }
+        }
+        this.riding = false;
+        this.mounted = null;
     }
 }

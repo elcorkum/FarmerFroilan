@@ -33,6 +33,19 @@ public class Pilot extends Person {
 
     @Override
     public void dismount() {
+        if (this.riding == false) {
+            System.out.println("Pilot is not riding or flying.");
+        }
+        else if (this.riding == true) {
+            if (this.riding == false) {
+                System.out.println("Pilot dismounts a crop duster.");
+            }
+            if (this.mounted instanceof Animal) {
+                System.out.println("Pilot dismounts a horse.");
+            }
+        }
+        this.riding = false;
+        this.mounted = null;
     }
 
     @Override
