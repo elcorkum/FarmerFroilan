@@ -1,20 +1,21 @@
 package mcfroilan;
 
 public abstract class Crop implements Produce{
-    private boolean hasBeenHarvested;
-    private boolean hasBeenFertilized;
+
+    public boolean hasBeenHarvested;
+    public  boolean hasBeenFertilized;
     private static  int cropCounter = 0;
     private int Id;
   
-    public boolean isHasBeenHarvested() {
+    public boolean getHasBeenHarvested() {
         return hasBeenHarvested;
     }
 
-    public void setHasBeenHarvested(boolean hasBeenHarvested) {
-        this.hasBeenHarvested = hasBeenHarvested;
+    public  void setHasBeenHarvested(boolean hasBeenHarvested) {
+        hasBeenHarvested = hasBeenHarvested;
     }
 
-    public boolean isHasBeenFertilized() {
+    public boolean getHasBeenFertilized() {
         return hasBeenFertilized;
     }
 
@@ -31,7 +32,10 @@ public abstract class Crop implements Produce{
         return Id;
     }
 
+public String toString(){
+        return "Crop ID: " + Id;
+}
 
     }
 
-}
+

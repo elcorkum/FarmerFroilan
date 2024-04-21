@@ -12,7 +12,14 @@ public class CropDuster extends Aircraft implements FarmVehicle{
         }
 
     }
-    public void fertilize(CropRow[] cropRows){
+    public void fertilize(Crop[][] cropRows){
+        for(Crop[] cropRow: cropRows){
+            for(Crop crop: cropRow){
+                crop.setHasBeenFertilized(true);
+                System.out.println("Current crop is being fertilized");
+
+            }
+        }
     }
     @Override
     public void makeNoise(){
