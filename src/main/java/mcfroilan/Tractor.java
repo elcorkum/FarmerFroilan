@@ -28,9 +28,10 @@ public class Tractor extends Vehicle implements FarmVehicle{
         System.out.println("Vroom Vroom!");
     }
 
-        Crop[][] cropsHarvested = new Crop[5][10];
+    public Crop[][] harvest(Crop[][] field){
+        Crop[][] cropsHarvested = new Crop[2][10];
         for (int i = 0; i < field.length; i++) {
-            for(int j = 0; j < field[i].length; j++){
+            for(int j = 0; j < 2; j++){
                 if (field[i][j].hasBeenFertilized == true){
                     if(field[i][j] instanceof TomatoPlant){
                         cropsHarvested[i][j] = new TomatoPlant();
@@ -42,7 +43,6 @@ public class Tractor extends Vehicle implements FarmVehicle{
                 } else {
                     field[i][j].setHasBeenHarvested(false);
                     field[i][j] = null;
-
                 }
             }
         }
@@ -55,4 +55,4 @@ public class Tractor extends Vehicle implements FarmVehicle{
         makeNoise();
         setInOperation(true);
     }
-}
+    }
