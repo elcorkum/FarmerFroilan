@@ -1,5 +1,7 @@
 package mcfroilan;
 public class Farmer extends Person implements Botanist{
+    private Farm farm = new Farm();
+    private  Crop[][] fieldValue = farm.createField();
     private boolean riding;
     private Rideable mounted;
 
@@ -7,34 +9,42 @@ public class Farmer extends Person implements Botanist{
         return riding;
     }
 
+    public Crop[][] getFieldValue() {
+        return fieldValue;
+    }
+
+    public Farm getFarm() {
+        return farm;
+    }
+
     public void setRiding(boolean riding) {
         this.riding = riding;
     }
 
     @Override
-    public void plant(Crop crop, CropRow cropRow, int index) {
-        if (index == -1){
-            for (int i = 0; i < cropRow.getCrops().length; i++){
+    public void plant(Crop crop, int cropRow) {
+
+        Crop[][] field = farm.createField();
+        for (int i = 0; i < field.length; i++) {
+            for (int x = 0; x < field[0].length; x++) {
                 if (crop instanceof TomatoPlant) {
-                    cropRow.getCrops()[i] = new TomatoPlant();
+                    fieldValue[cropRow][x] = new TomatoPlant();
+                    if (x > field[0].length){
+                        break;
+                    }
                 }
-                if (crop instanceof CornStalk){
-                    cropRow.getCrops()[i] = new CornStalk();
+                if (crop instanceof CornStalk) {
+                    fieldValue[cropRow][x] = new CornStalk();
+                    if (x > field[0].length){
+                        break;
+                    }
                 }
-                if (crop instanceof BeanStalk){
-                    cropRow.getCrops()[i] = new BeanStalk();
+                if (crop instanceof BeanStalk) {
+                    fieldValue[cropRow][x] = new BeanStalk();
+                    if (x > field[0].length){
+                        break;
+                    }
                 }
-            }
-        }
-        else {
-            if (crop instanceof TomatoPlant) {
-                cropRow.getCrops()[index] = new TomatoPlant();
-            }
-            if (crop instanceof CornStalk){
-                cropRow.getCrops()[index] = new CornStalk();
-            }
-            if (crop instanceof BeanStalk){
-                cropRow.getCrops()[index] = new BeanStalk();
             }
         }
     }

@@ -16,6 +16,15 @@ public class Farm{
 //        this.field = field;
 //    }
 
+
+    public Crop[][] getField() {
+        return field;
+    }
+
+    public void setField(Crop[][] field) {
+        this.field = field;
+    }
+
     public Chicken[][] makeChickens() {
         chickenCoops = new Chicken[4][4];
         for (int x = 0; x < 4; x++) {
@@ -54,17 +63,18 @@ public class Farm{
     }
 
     public Crop[][] createField() {
-        Crop[][] field = new Crop[5][10];
-        for (int i = 0; i < field.length; i++) {
-            for (int y = 0; y < field[i].length; y++) {
-                field[i][y] = new Crop() {
-                    @Override
-                    public Edible yield() {
-                        return null;
-                    }
-                };
-            }
-        }
+        Crop[][] field = new Crop[3][3];
+//        for (int i = 0; i < field.length; i++) {
+//            for (int y = 0; y < field[i].length; y++) {
+//                field[i][y] = new Crop();
+//                {
+//                    @Override
+//                    public Edible yield() {
+//                        return null;
+//                    }
+//                };
+
+
         return field;
     }
 
