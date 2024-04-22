@@ -123,6 +123,56 @@ class FridayTest {
 
     }
 
+    @Test
+    public void pilotEatTest(){
+        Pilot lowRider = new Pilot();
+        Edible[] pilotFood = {e1, earCorn2, t1, e2, earCorn};
+
+        boolean actualEatenStateBefore = false;
+        boolean expectedEatenStateBefore = lowRider.getHasEaten();
+
+        assertEquals(actualEatenStateBefore, expectedEatenStateBefore);
+
+        lowRider.eat(pilotFood);
+
+        if (lowRider.getHasEaten() == false){
+            for(int i = 0; i < pilotFood.length; i++){
+                if (pilotFood[i] instanceof EdibleEgg) {
+                    assertInstanceOf(EdibleEgg.class, pilotFood[i]);
+                }
+                if(pilotFood[i] instanceof EarCorn){
+                    assertInstanceOf(EarCorn.class, pilotFood[i]);
+                }
+                if(pilotFood[i] instanceof Tomato){
+                    assertInstanceOf(Tomato.class, pilotFood[i]);
+                }
+                pilotFood[i] = null;
+                assertNull(pilotFood[i]);
+            }
+            lowRider.setHasEaten(true);
+            assertTrue(lowRider.getHasEaten());
+        }
+
+    }
+
+    @Test
+    public void pilotAlreadyAteTest(){
+        Pilot lowRider = new Pilot();
+        Edible[] pilotFood = {e1, earCorn2, t1, e2, earCorn};
+        lowRider.eat(pilotFood);
+
+        boolean actualEatenStateAfter = true;
+        boolean expectedEatenStateAfter = lowRider.getHasEaten();
+        assertEquals(actualEatenStateAfter, expectedEatenStateAfter);
+
+        lowRider.eat(pilotFood);
+
+        if (lowRider.getHasEaten() == true){
+            lowRider.setHasEaten(false);
+            assertTrue(lowRider.getHasEaten());
+        }
+    }
+
 
 
 
