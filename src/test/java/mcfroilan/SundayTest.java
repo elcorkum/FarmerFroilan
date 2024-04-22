@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SundayTest {
 
     @Test
-    void plant() {
+    void plantTest() {
         Farmer froilan = new Farmer();
 
         CropRow cropRow1 = new CropRow(4);
