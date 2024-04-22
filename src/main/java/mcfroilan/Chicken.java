@@ -31,9 +31,11 @@ public class Chicken extends Animal implements Produce{
         this.hasBeenFertilized = hasBeenFertilized;
     }
     public Edible yield(){
-        if(isHasBeenFertilized() == true){
+        if(isHasBeenFertilized() == false){
+            System.out.println("Chicken laid an egg!");
             return new EdibleEgg();
         }
+        System.out.println("Chicken egg not edible!");
         return null;
     }
 
@@ -44,6 +46,7 @@ public class Chicken extends Animal implements Produce{
                 edibles[i] = null;
             }
             setHasBeenFed(true);
+            System.out.println("Chicken is eating!");
         } else{
             System.out.println("This chicken just ate!");
             setHasBeenFed(false);
