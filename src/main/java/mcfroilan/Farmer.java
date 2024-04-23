@@ -74,7 +74,7 @@ public class Farmer extends Person implements Botanist{
             System.out.println("Farmer is not riding anything.");
         }
         else if (this.riding == true) {
-            if (this.riding == false) {
+            if (this.mounted instanceof Vehicle) {
                 System.out.println("farmer dismounts a tractor.");
             }
             if (this.mounted instanceof Animal) {
