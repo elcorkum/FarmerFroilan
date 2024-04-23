@@ -64,6 +64,20 @@ public class Main{
         System.out.println(horse1.getId());
         System.out.println("================");
 
+        //Pilot methods
+        Pilot froilanda = new Pilot();
+        Tomato tomato3 = new Tomato();
+        EarCorn earcorn3 = new EarCorn();
+        EdibleEgg egg3 = new EdibleEgg();
+        Edible[] froilandasFood = {tomato3, earcorn3, egg3};
+        froilanda.eat(froilandasFood);
+        froilanda.eat(froilandasFood);
+        froilanda.mount(horse2);
+        froilanda.dismount();
+        froilanda.makeNoise();
+        System.out.println("================");
+
+
 
     }
 
