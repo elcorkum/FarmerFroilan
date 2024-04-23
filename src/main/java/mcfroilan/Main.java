@@ -65,6 +65,42 @@ public class Main{
         System.out.println("================");
 
 
+        //CropDuster methods
+        CropDuster cropDuster = new CropDuster();
+        //CropDuster cropDuster1 = new CropDuster();
+        cropDuster.operate();
+        TomatoPlant t = new TomatoPlant();
+        TomatoPlant t1 = new TomatoPlant();
+        CornStalk c = new CornStalk();
+        CornStalk c2 = new CornStalk();
+        Crop[] row1 = {t,t1};
+        Crop[] row2 = {c, c2};
+        Crop[][] farmerField = {row1, row2};
+        cropDuster.fertilize(farmerField);
+        System.out.println("================");
+
+        //EarCorn and Tomato id tests
+        System.out.println(t.getId());
+        System.out.println(t1.getId());
+        System.out.println(t.getId());
+        System.out.println(c.getId());
+        System.out.println(c2.getId());
+        System.out.println(c.getId());
+        System.out.println("================");
+
+        //Tractor method tests
+        Tractor tractor = new Tractor();
+        tractor.makeNoise();
+        //Tractor tractor2 = new Tractor();
+        tractor.operate();
+        Crop[][] cropsHarvested = tractor.harvest(farmerField);
+        System.out.println(Arrays.deepToString(cropsHarvested));
+        System.out.println("================");
+
+
+
+
+
     }
 
 }

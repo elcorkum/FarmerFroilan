@@ -63,7 +63,7 @@ public class Farm{
     }
 
     public Crop[][] createField() {
-        Crop[][] field = new Crop[3][3];
+//        Crop[][] field = new Crop[3][3];
 //        for (int i = 0; i < field.length; i++) {
 //            for (int y = 0; y < field[i].length; y++) {
 //                field[i][y] = new Crop();
@@ -73,9 +73,9 @@ public class Farm{
 //                        return null;
 //                    }
 //                };
+//
 
-
-        return field;
-    }
+       return field;
+   }
 
 }
