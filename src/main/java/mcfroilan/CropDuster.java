@@ -3,6 +3,15 @@ package mcfroilan;
 public class CropDuster extends Aircraft implements FarmVehicle{
 
     private static boolean created = false;
+    private boolean inOperation;
+
+    public boolean isInOperation() {
+        return inOperation;
+    }
+
+    public void setInOperation(boolean inOperation) {
+        this.inOperation = inOperation;
+    }
 
     public CropDuster(){
         oneFarmVehicle();
@@ -18,13 +27,10 @@ public class CropDuster extends Aircraft implements FarmVehicle{
 
     @Override
     public void operate() {
-//        if(!getIsMounted()) {
-//            makeNoise();
-//            fly();
-//            System.out.println("Preparing to fertilize the crops");
-//        } else{
-//            System.out.println("Cannot be operated without mounting");
-//        }
+        System.out.println("Pilot starting crop duster engine...");
+        makeNoise();
+        fly();
+        setInOperation(true);
     }
 
     public void fertilize(Crop[][] cropRows){
