@@ -4,43 +4,120 @@ import java.util.Arrays;
 
 public class Main{
     public static void main(String[] args) {
-        Farmer tim = new Farmer();
-        CropRow corn = new CropRow(3);
-        CornStalk cornStalk = new CornStalk();
-        tim.plant(cornStalk, corn, -1);
-        System.out.println(Arrays.toString(corn.getCrops()));
-        Farm farm = new Farm();
-        Chicken[][] chickenCoops = farm.makeChickens();
-        Tractor tractor = new Tractor();
-        Horse horse = new Horse();
-        CropDuster cropDuster = new CropDuster();
-        tim.mount(tractor);
-        //tim.mount(tractor);
-        //tim.mount(horse);
-
-//System.out.println(Arrays.deepToString(farm.makeChickens()));
+        //Chicken Methods
         Chicken chicken1 = new Chicken();
-        Chicken chicken2 = new Chicken();
-        Chicken chicken3 = new Chicken();
+        chicken1.yield();
         System.out.println(chicken1.getId());
+        chicken1.setHasBeenFertilized(true);
+        chicken1.yield();
+       Tomato tomato1 = new Tomato();
+       EarCorn earcorn1 = new EarCorn();
+       EdibleEgg egg1 = new EdibleEgg();
+       Edible[] chickenFood = {tomato1, earcorn1, egg1};
+       chicken1.eat(chickenFood);
+       chicken1.eat(chickenFood);
+       chicken1.makeNoise();
+       Chicken chicken2 = new Chicken();
         System.out.println(chicken2.getId());
-        System.out.println(chicken3.getId());
-        farm.makeChickens();
-        for(Chicken[] chickenCoop: chickenCoops) {
-            for(Chicken chicken: chickenCoop){
-                if(chicken != null && chicken.getId() == 13){
-                    chicken.makeNoise();
-                }
-            }
-        }
+        System.out.println(chicken1.getId());
+        System.out.println("================");
 
+        //CornStalk methods
+        CornStalk corn1 = new CornStalk();
+        corn1.setHasBeenHarvested(true);
+        corn1.setHasBeenFertilized(true);
+        corn1.yield();
+        corn1.setHasBeenFertilized(false);
+        corn1.yield();
+        System.out.println(corn1.getId());
+        CornStalk corn2 = new CornStalk();
+        System.out.println(corn2.getId());
+        System.out.println(corn1.getId());
+        System.out.println("================");
+
+        //TomatoPlant methods
+        TomatoPlant tomatoPlant = new TomatoPlant();
+        tomatoPlant.setHasBeenFertilized(true);
+        tomatoPlant.setHasBeenHarvested(true);
+        tomatoPlant.yield();
+        tomatoPlant.setHasBeenFertilized(false);
+        tomatoPlant.yield();
+        System.out.println(tomatoPlant.getId());
+        TomatoPlant tomatoPlant2 = new TomatoPlant();
+        System.out.println(tomatoPlant2.getId());
+        System.out.println(tomatoPlant.getId());
+        System.out.println("================");
+
+        //Horse methods
+        Horse horse1 = new Horse();
+        Tomato tomato2 = new Tomato();
+        EarCorn earcorn2 = new EarCorn();
+        EdibleEgg egg2 = new EdibleEgg();
+        Edible[] horseFood = {tomato1, earcorn1, egg1};
+        horse1.eat(horseFood);
+        horse1.eat(horseFood);
+        horse1.makeNoise();
+        horse1.ride();
+        System.out.println(horse1.getId());
+        Horse horse2 = new Horse();
+        System.out.println(horse2.getId());
+        System.out.println(horse1.getId());
+        System.out.println("================");
+
+        //Pilot methods
         Pilot froilanda = new Pilot();
-        froilanda.mount(cropDuster);
-        froilanda.makeNoise();
+        Tomato tomato3 = new Tomato();
+        EarCorn earcorn3 = new EarCorn();
+        EdibleEgg egg3 = new EdibleEgg();
+        Edible[] froilandasFood = {tomato3, earcorn3, egg3};
+        froilanda.eat(froilandasFood);
+        froilanda.eat(froilandasFood);
+        froilanda.mount(horse2);
         froilanda.dismount();
-        froilanda.eat();
+        froilanda.makeNoise();
+        System.out.println("================");
+
+
+
+        //CropDuster methods
+        CropDuster cropDuster = new CropDuster();
+        froilanda.mount(cropDuster);
+        froilanda.dismount();
+        //CropDuster cropDuster1 = new CropDuster();
+        cropDuster.operate();
+        TomatoPlant t = new TomatoPlant();
+        TomatoPlant t1 = new TomatoPlant();
+        CornStalk c = new CornStalk();
+        CornStalk c2 = new CornStalk();
+        Crop[] row1 = {t,t1};
+        Crop[] row2 = {c, c2};
+        Crop[][] farmerField = {row1, row2};
+        cropDuster.fertilize(farmerField);
+        System.out.println("================");
+
+        //EarCorn and Tomato id tests
+        System.out.println(t.getId());
+        System.out.println(t1.getId());
+        System.out.println(t.getId());
+        System.out.println(c.getId());
+        System.out.println(c2.getId());
+        System.out.println(c.getId());
+        System.out.println("================");
+
+        //Tractor method tests
+        Tractor tractor = new Tractor();
+        tractor.makeNoise();
+        //Tractor tractor2 = new Tractor();
+        tractor.operate();
+        Crop[][] cropsHarvested = tractor.harvest(farmerField);
+        System.out.println(Arrays.deepToString(cropsHarvested));
+        System.out.println("================");
+
+
+
 
 
     }
+
 }
 

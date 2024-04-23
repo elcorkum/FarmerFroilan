@@ -10,7 +10,7 @@ class MondayTest {
     Tomato tomato = new Tomato();
     Horse horse = new Horse();
     EarCorn earCorn = new EarCorn();
-    frolandia.eat(earCorn);
+    frolandia.eat(new EarCorn[]{earCorn});
     //ADD TO STRING TO EDIBLE OBJECTS
     }
 
@@ -43,6 +43,7 @@ class MondayTest {
     void makeNoiseTest() {
         Pilot frolandia = new Pilot();
         frolandia.makeNoise();
+
 
     }
 

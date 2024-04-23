@@ -19,8 +19,8 @@ public class EverydayMorningRoutine {
         Tomato tomato = new Tomato();
         Horse horse = new Horse();
         EarCorn earCorn = new EarCorn();
-        froilanda.eat(earCorn);
-        frolian.eat(tomato);
+        froilanda.eat(new EarCorn[]{earCorn});
+        frolian.eat(new Tomato[]{tomato});
     }
 
 

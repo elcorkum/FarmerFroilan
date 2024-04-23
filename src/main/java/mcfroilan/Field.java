@@ -1,13 +1,13 @@
 package mcfroilan;
 
 public class Field {
-    private CropRow[] cropRows;
+    private Crop[] cropRows;
 
-    public CropRow[] getCropRows() {
+    public Crop[] getCropRows() {
         return cropRows;
     }
 
-    public void setCropRows(CropRow[] cropRows) {
+    public void setCropRows(Crop[] cropRows) {
         this.cropRows = cropRows;
     }
 

@@ -20,8 +20,10 @@ public class CornStalk extends Crop{
             EarCorn earCorn;
             if (hasBeenFertilized && hasBeenHarvested){
                 earCorn = new EarCorn();
+                System.out.println("Ear corn is edible!");
             }else {
                 earCorn = null;
+                System.out.println("Ear corn is not edible!");
             }
             return earCorn;
         }
