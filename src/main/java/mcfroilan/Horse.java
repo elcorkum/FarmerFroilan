@@ -39,8 +39,9 @@ public class Horse extends Animal implements Rideable{
                 edibles[i] = null;
             }
             setHasBeenFed(true);
+            System.out.println("Horse is eating!");
         } else{
-            System.out.println("This chicken just ate!");
+            System.out.println("This horse just ate!");
             setHasBeenFed(false);
         }
     }
