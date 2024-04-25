@@ -9,6 +9,9 @@ class SundayTest {
     @Test
     void plantTest() {
         Farmer froilan = new Farmer();
+        Farm farm = new Farm(new Crop[3][3]);
+        froilan.setFieldValue(farm.getField());
+        froilan.setFarm(farm);
 
         CornStalk corn = new CornStalk();
         TomatoPlant tomato = new TomatoPlant();

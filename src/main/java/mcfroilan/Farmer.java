@@ -1,10 +1,18 @@
 package mcfroilan;
 public class Farmer extends Person implements Botanist{
-    private Farm farm = new Farm();
-    private  Crop[][] fieldValue = farm.createField();
+    private Farm farm;
+    private Crop[][] fieldValue;
     private boolean riding;
     private Rideable mounted;
     private boolean hasEaten;
+
+    public void setFieldValue(Crop[][] fieldValue) {
+        this.fieldValue = fieldValue;
+    }
+
+    public void setFarm(Farm farm) {
+        this.farm = farm;
+    }
 
     public boolean isRiding() {
         return riding;
@@ -33,7 +41,7 @@ public class Farmer extends Person implements Botanist{
     @Override
     public void plant(Crop crop, int cropRow) {
 
-        Crop[][] field = farm.createField();
+        Crop[][] field = farm.getField();
         for (int i = 0; i < field.length; i++) {
             for (int x = 0; x < field[0].length; x++) {
                 if (crop instanceof TomatoPlant) {
