@@ -24,4 +24,6 @@ public class CropRow{
     public void setCrops(Crop[] crops) {
         this.crops = crops;
     }
+
+
 }

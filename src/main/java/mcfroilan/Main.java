@@ -111,6 +111,24 @@ public class Main{
         System.out.println(Arrays.deepToString(cropsHarvested));
         System.out.println("================");
 
+        Farm farm = new Farm(new Crop[3][3]);
+        Farmer froilan = new Farmer();
+        froilan.setFieldValue(farm.getField());
+        froilan.setFarm(farm);
+        BeanStalk soybean = new BeanStalk();
+        CornStalk corn = new CornStalk();
+        TomatoPlant tomato = new TomatoPlant();
+        froilan.plant(soybean, 2);
+        froilan.plant(corn, 0);
+        froilan.plant(tomato, 1);
+        Edible[] froilanFood = new Edible[] {new EdibleEgg(), new EarCorn(), new Tomato()};
+        System.out.println(Arrays.deepToString(froilan.getFieldValue()));
+        froilan.eat(froilanFood);
+        froilan.makeNoise();
+        froilan.mount(horse1);
+        froilan.dismount();
+
+
 
 
 

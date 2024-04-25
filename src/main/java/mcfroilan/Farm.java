@@ -3,18 +3,21 @@ package mcfroilan;
 
 import java.util.Arrays;
 
-public class Farm{
+public class Farm {
     private Horse[][] stables;
     private Chicken[][] chickenCoops;
     private FarmHouse farmHouse;
     private Crop[][] field;
 
-//    public Farm(Horse[][] stables, Chicken[][] chickenCoops, FarmHouse farmHouse, Crop[][] field){
+    //    public Farm(Horse[][] stables, Chicken[][] chickenCoops, FarmHouse farmHouse, Crop[][] field){
 //        this.stables = stables;
 //        this.chickenCoops = chickenCoops;
 //        this.farmHouse = farmHouse;
 //        this.field = field;
 //    }
+    public Farm(Crop[][] field) {
+        setField(field);
+    }
 
 
     public Crop[][] getField() {
@@ -61,21 +64,5 @@ public class Farm{
         return stables;
 
     }
-
-    public Crop[][] createField() {
-//        Crop[][] field = new Crop[3][3];
-//        for (int i = 0; i < field.length; i++) {
-//            for (int y = 0; y < field[i].length; y++) {
-//                field[i][y] = new Crop();
-//                {
-//                    @Override
-//                    public Edible yield() {
-//                        return null;
-//                    }
-//                };
-//
-
-       return field;
-   }
 
 }
