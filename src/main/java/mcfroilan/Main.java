@@ -111,6 +111,7 @@ public class Main{
         System.out.println(Arrays.deepToString(cropsHarvested));
         System.out.println("================");
 
+        //Farmer method tests
         Farm farm = new Farm(new Crop[3][3]);
         Farmer froilan = new Farmer();
         froilan.setFieldValue(farm.getField());
