@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="">
+    <list default="true" id="9bd5e20e-3b7e-46fc-8336-551d7199eb15" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Crop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Crop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/CropDuster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Tractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mcfroilan/EverydayMorningRoutine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/EverydayMorningRoutine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mcfroilan/MondayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mcfroilan/MondayTest.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/CornStalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/CornStalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Botanist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Botanist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Chicken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/CornStalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/CornStalk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farm$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Farm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Farmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/TomatoPlant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/TomatoPlant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mcfroilan/SundayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mcfroilan/SundayTest.class" afterDir="false" />
->>>>>>> 620d7c51eaa34518a8f0ee0870e0240c12b1ab3e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -59,34 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-<<<<<<< HEAD
-    "JUnit.EverydayMorningRoutine.eatTest.executor": "Run",
-    "JUnit.MondayTest.dismountTest.executor": "Run",
-    "JUnit.MondayTest.eatTest.executor": "Run",
-    "JUnit.MondayTest.makeNoiseTest.executor": "Run",
-    "JUnit.MondayTest.mountTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Isaiah",
-=======
-    "JUnit.FridayTest.executor": "Run",
-    "JUnit.WednesdayTest.yieldCornStalk.executor": "Coverage",
-    "JUnit.WednesdayTest.yieldCornStalkNot.executor": "Coverage",
-    "JUnit.WednesdayTest.yieldNotFertilizedTest.executor": "Run",
-    "JUnit.WednesdayTest.yieldTest.executor": "Coverage",
-    "JUnit.WednesdayTest.yieldTomatoPlant.executor": "Run",
-    "JUnit.WednesdayTest.yieldTomatoPlantNot.executor": "Coverage",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Juan",
->>>>>>> 620d7c51eaa34518a8f0ee0870e0240c12b1ab3e
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/juan/Desktop/FarmerFroilan"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Isaiah&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chell\FarmerFroilan\src\main" />
@@ -102,14 +60,21 @@
       <recent name="mcfroilan" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.MondayTest.makeNoiseTest">
-    <configuration name="EverydayMorningRoutine.eatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mcfroilan.Main" />
->>>>>>> 620d7c51eaa34518a8f0ee0870e0240c12b1ab3e
+      <option name="MAIN_CLASS_NAME" value="mcfroilan.EverydayMorningRoutine" />
+      <module name="Exam2Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mcfroilan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FridayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam2Review" />
       <extension name="coverage">
         <pattern>
@@ -118,9 +83,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mcfroilan" />
-      <option name="MAIN_CLASS_NAME" value="mcfroilan.EverydayMorningRoutine" />
-      <option name="METHOD_NAME" value="eatTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="mcfroilan.FridayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,21 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exam2Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mcfroilan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mcfroilan" />
-      <option name="MAIN_CLASS_NAME" value="mcfroilan.FridayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WednesdayTest.yieldCornStalkNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exam2Review" />
       <extension name="coverage">
@@ -254,19 +203,15 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
         <item itemvalue="JUnit.MondayTest.makeNoiseTest" />
         <item itemvalue="JUnit.MondayTest.dismountTest" />
         <item itemvalue="JUnit.MondayTest.mountTest" />
-        <item itemvalue="JUnit.EverydayMorningRoutine.eatTest" />
         <item itemvalue="JUnit.MondayTest.eatTest" />
-=======
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FridayTest" />
         <item itemvalue="JUnit.WednesdayTest.yieldNotFertilizedTest" />
         <item itemvalue="JUnit.WednesdayTest.yieldTomatoPlant" />
         <item itemvalue="JUnit.WednesdayTest.yieldCornStalkNot" />
->>>>>>> 620d7c51eaa34518a8f0ee0870e0240c12b1ab3e
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +225,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="" />
+      <changelist id="9bd5e20e-3b7e-46fc-8336-551d7199eb15" name="Changes" comment="" />
       <created>1713403496072</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
