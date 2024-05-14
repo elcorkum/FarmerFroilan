@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f2ddbb4-0a12-4a27-86ab-a71786270889" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/CornStalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/CornStalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mcfroilan/TomatoPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Botanist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Botanist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Chicken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/CornStalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/CornStalk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farm$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Farm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Farmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Farmer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mcfroilan/TomatoPlant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mcfroilan/TomatoPlant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mcfroilan/SundayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mcfroilan/SundayTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
