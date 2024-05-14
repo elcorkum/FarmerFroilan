@@ -62,7 +62,7 @@ public class Pilot extends Person {
             System.out.println("Pilot is not riding or flying.");
         }
         else if (this.riding == true) {
-            if (this.riding == false) {
+            if (this.mounted instanceof Aircraft) {
                 System.out.println("Pilot dismounts a crop duster.");
             }
             if (this.mounted instanceof Animal) {

@@ -81,6 +81,8 @@ public class Main{
 
         //CropDuster methods
         CropDuster cropDuster = new CropDuster();
+        froilanda.mount(cropDuster);
+        froilanda.dismount();
         //CropDuster cropDuster1 = new CropDuster();
         cropDuster.operate();
         TomatoPlant t = new TomatoPlant();
